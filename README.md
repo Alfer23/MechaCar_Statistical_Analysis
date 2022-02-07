@@ -52,10 +52,10 @@ The Lot 1 variance is 0.979 while Lot 2 shows a variance of 7.469 which means th
 - Using R, I performed t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 The p-Value of 0.06 is higher than the significance level of 0.05 so that there is NOT enough evidence to support rejecting the null hypothesis.
+
 ![image](https://user-images.githubusercontent.com/90117562/152746852-b4e70af4-5749-4009-a3b5-6f72db80961b.png)
 
 Lot 1 sample with a p-Value of 1, so we cannot reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean of 1500
-
 
 ![image](https://user-images.githubusercontent.com/90117562/152746895-b22dcca6-c9da-4e56-a19f-f28e28381019.png)
 
@@ -66,6 +66,3 @@ Lot 2 has shows a p-Value of 0.61 which says that the null hypothesis cannot be 
 Lot 3 shows a sample mean of 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. These results demands to reject the null hypothesis, because the means are not statistically similar.
 
 ![image](https://user-images.githubusercontent.com/90117562/152746966-580d7ef5-2f9a-49eb-9b2f-1effc9dc1ea8.png)
-
-
-
