@@ -49,19 +49,15 @@ The Lot 1 variance is 0.979 while Lot 2 shows a variance of 7.469 which means th
 
 ### Deliverable 3: T-Test on Suspension Coils
 
-Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+Using R, I performed t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-In your README, create a subheading then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+![image](https://user-images.githubusercontent.com/90117562/152746852-b4e70af4-5749-4009-a3b5-6f72db80961b.png)
+
+![image](https://user-images.githubusercontent.com/90117562/152746895-b22dcca6-c9da-4e56-a19f-f28e28381019.png)
+
+![image](https://user-images.githubusercontent.com/90117562/152746926-e8130a09-e227-4f72-8644-a612b4c2d1f4.png)
+
+![image](https://user-images.githubusercontent.com/90117562/152746966-580d7ef5-2f9a-49eb-9b2f-1effc9dc1ea8.png)
 
 
-### Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
-
-
-
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
