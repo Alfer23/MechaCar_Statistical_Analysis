@@ -16,31 +16,35 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 
 The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using  R, We have to design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file.
 
-and write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+ The vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. 
 
+- Is the slope of the linear model considered to be zero? Why or why not?
+Due to p-Value: 5.35e-11, is smaller than the significance level of 0.05%. There is enough evidence to reject our null hypothesis, so that the slope of this linear model is not zero.
 
+- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Yes, this linear model has an r-squared value of 0.7149, this represents 71% of accurary at all mpg predictions will be determined by this model. 
+ 
 
 ![image](https://user-images.githubusercontent.com/90117562/152737858-e5cf9104-4b11-4d06-9121-4101035a7298.png)
 
 
-
+![image](https://user-images.githubusercontent.com/90117562/152739336-b6df48d7-5d12-4c85-888e-423fdbdfc169.png)
 
 
 ### Deliverable 2: Summary Statistics on Suspension Coils
 
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+-  The suspension coil’s PSI continuous variable across all manufacturing lots
+-  The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
-The suspension coil’s PSI continuous variable across all manufacturing lots
-The following PSI metrics for each lot: mean, median, variance, and standard deviation.
-Then, in the README.md, you’ll briefly detail and interpret the suspension coil summary statistics.
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The Lot 1 variance is 0.979 while Lot 2 shows a variance of 7.469 which means that those Lot do not exceed 100 pounds per square. However, the unique Lot that do not meet the design specification is Lot 3 with a Variance of 170.28
 
- and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+![image](https://user-images.githubusercontent.com/90117562/152744210-dcf941b9-d9c0-4859-b72f-d7c3707df0bc.png)
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+![image](https://user-images.githubusercontent.com/90117562/152744232-3209fab6-0cc3-4231-80be-97b5379a2f56.png)
 
 
 ### Deliverable 3: T-Test on Suspension Coils
